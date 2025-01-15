@@ -73,22 +73,22 @@ const Body = () => {
                 </div>
             </div>
 
-            <div className={` absolute mt-[70px] z-50 ${!show ? 'transition duration-200 ease-in-out' : "hidden"}  top-0  right-0 bottom-0 h-full bg-slate-700`}>
+            <div className={` fixed mt-[70px] z-50 ${!show ? 'transition duration-200 ease-in-out' : "hidden"}  top-0  right-0 bottom-0 h-full bg-slate-700`}>
                 <div className=' list-none text-slate-300 text-center'>
                     <Link to='body' smooth={true} duration={500}>
-                        <li className=" hover:text-cyan-500 px-[110px] py-5 border-b border-b-slate-500 cursor-pointer transition ease-in-out duration-200"> Home</li>
+                        <li onClick={() => setShow(!show)} className=" hover:text-cyan-500 px-[110px] py-5 border-b border-b-slate-500 cursor-pointer transition ease-in-out duration-200"> Home</li>
                     </Link>
                     <Link to='aboutme' smooth={true} duration={1000}>
-                        <li className=" hover:text-cyan-500  px-[110px] py-5 border-b border-b-slate-500 cursor-pointer transition ease-in-out duration-200"> About Me</li>
+                        <li onClick={() => setShow(!show)} className=" hover:text-cyan-500  px-[110px] py-5 border-b border-b-slate-500 cursor-pointer transition ease-in-out duration-200"> About Me</li>
                     </Link>
                     <Link to='skills' smooth={true} duration={1000}>
-                        <li className=" hover:text-cyan-500  px-[110px] py-5 border-b border-b-slate-500 cursor-pointer transition ease-in-out duration-200"> Skills</li>
+                        <li onClick={() => setShow(!show)} className=" hover:text-cyan-500  px-[110px] py-5 border-b border-b-slate-500 cursor-pointer transition ease-in-out duration-200"> Skills</li>
                     </Link>
                     <Link to='projects' smooth={true} duration={1000}>
-                        <li className=" hover:text-cyan-500  px-[110px] py-5 border-b border-b-slate-500 cursor-pointer transition ease-in-out duration-200"> Projects</li>
+                        <li onClick={() => setShow(!show)} className=" hover:text-cyan-500  px-[110px] py-5 border-b border-b-slate-500 cursor-pointer transition ease-in-out duration-200"> Projects</li>
                     </Link>
                     <Link to='contect' smooth={true} duration={1000} >
-                        <li className=" hover:text-cyan-500  px-[110px] py-5 border-b border-b-slate-500 cursor-pointer transition ease-in-out duration-200"> Contect</li>
+                        <li onClick={() => setShow(!show)} className=" hover:text-cyan-500  px-[110px] py-5 border-b border-b-slate-500 cursor-pointer transition ease-in-out duration-200"> Contect</li>
                     </Link>
                 </div>
             </div>
