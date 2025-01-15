@@ -3,7 +3,7 @@
 const Contect = () => {
     return (
         <div className=" bg-slate-950 mt-10 py-4">
-            <h1 className=" font-bold text-2xl text-center">Contect</h1>
+            <h1 className=" font-bold text-2xl text-center text-white">Contect</h1>
 
             <section id="contact" className="pt-5">
                 <div className="max-w-4xl mx-auto text-center">
