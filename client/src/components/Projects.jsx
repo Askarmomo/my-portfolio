@@ -7,8 +7,8 @@ const Projects = () => {
         <div data-aos="zoom-in-up">
             <h1 className=" font-bold text-2xl text-center">Projects</h1>
 
-            <div className=" flex items-center justify-center space-x-40 pt-10 pb-10">
-                <div className=" border border-slate-600 max-w-sm pb-4">
+            <div className=" sm:flex space-y-10 sm:space-y-0 sm:items-center sm:justify-center sm:space-x-40 pt-10 pb-10">
+                <div className=" border border-slate-600 sm:max-w-sm pb-4">
                     <img className=" h-[250px] w-[400px] object-cover" src={img} alt="" />
                     <div className="px-4 flex items-center space-x-4 pb-4 pt-4">
                         <h3 className=" text-2xl font-semibold capitalize">Book shop</h3>
@@ -23,7 +23,7 @@ const Projects = () => {
                         <a href="https://github.com/Askarmomo/e-commerce" className=" text-center p-2 rounded bg-pink-600 hover:bg-pink-700 transition ease-in-out duration-200 w-full">Code</a>
                     </div>
                 </div>
-                <div className=" border border-slate-600 max-w-sm pb-4">
+                <div className=" border border-slate-600 sm:max-w-sm pb-4">
                     <img className=" h-[250px] w-[400px] object-cover" src={"https://www.mckinsey.com/~/media/mckinsey/featured%20insights/mckinsey%20explainers/what%20is%20social%20media/what%20is%20social%20media__1407795145_hero_1536x864.jpg?cq=50&mw=767&cpy=Center"} alt="" />
                     <div className="px-4 flex items-center space-x-4 pb-4 pt-4">
                         <h3 className=" text-2xl font-semibold capitalize">Social Media</h3>
