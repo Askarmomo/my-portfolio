@@ -108,7 +108,7 @@ const Body = () => {
                                 <h2 className="font-semibold text-4xl">Mohammed Askar</h2>
                                 <h4 className="font-semibold text-xl">And I Am A <span ref={typedElement} className=' text-cyan-500'></span></h4>
                             </div>
-                            <div className=' w-[450px]'>
+                            <div className=' sm:w-[450px]'>
                                 <span className=' text-slate-400'>
                                     I started my developer journey on December 28, 2023. Now, I have 1 year of experience in MERN stack development.
                                     I am very interested in this field and was inspired by my friends.</span>
