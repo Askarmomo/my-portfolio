@@ -34,7 +34,7 @@ const Body = () => {
 
     return (
 
-        <div className='bg-gray-950'>
+        <div className='bg-slate-900'>
             {/* hearders */}
             <div className=" sticky z-50 top-0 bg-gray-950 text-white list-none p-4 flex items-center px-10 justify-between">
                 <div>
