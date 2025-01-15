@@ -93,7 +93,7 @@ const Body = () => {
                 </div>
             </div>
 
-            <div className=" min-h-screen px-10 bg-slate-900 text-white pt-4">
+            <div className=" min-h-screen px-10 sm:px-0 bg-slate-900 text-white pt-4">
                 {/* body */}
                 <Element name='body'>
                     <motion.div
