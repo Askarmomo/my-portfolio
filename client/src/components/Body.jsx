@@ -8,7 +8,7 @@ import Contect from './Contect'
 import { Link, Element } from "react-scroll";
 import { motion } from "framer-motion"
 
-import pdf from "/public/images/Resume of Asakr.pdf"
+import pdf from "/public/images/Askar_Resume.pdf"
 
 const Body = () => {
 
